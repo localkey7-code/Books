@@ -1,0 +1,45 @@
+
+> kailasa-precinct@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# {"fullSceneTriangles":166406,"fullSceneBatches":55,"nodes":63,"instances":2660,"materials":7}
+# Subtest: material identity, missing key and cap
+ok 1 - material identity, missing key and cap
+  ---
+  duration_ms: 0.939262
+  type: 'test'
+  ...
+# Subtest: geometry registry sources and instancing
+ok 2 - geometry registry sources and instancing
+  ---
+  duration_ms: 4.693933
+  type: 'test'
+  ...
+# Subtest: bounds clamp, no falling outside fly volume
+ok 3 - bounds clamp, no falling outside fly volume
+  ---
+  duration_ms: 0.590252
+  type: 'test'
+  ...
+# Subtest: distance detail LOD switches without creating nodes
+ok 4 - distance detail LOD switches without creating nodes
+  ---
+  duration_ms: 0.691096
+  type: 'test'
+  ...
+# Subtest: whole procedural scene has bounded geometry/material/batch budgets
+ok 5 - whole procedural scene has bounded geometry/material/batch budgets
+  ---
+  duration_ms: 30.116193
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 121.707493

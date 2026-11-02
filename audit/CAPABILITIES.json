@@ -1,0 +1,12 @@
+{
+  "capabilities": {
+    "webgl2": true,
+    "maxTextureSize": 8192,
+    "maxAttributes": 16,
+    "maxSamples": 4,
+    "coarsePointer": false,
+    "deviceMemoryGiB": 4,
+    "logicalCores": 2
+  },
+  "ready": true
+}
