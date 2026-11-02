@@ -1,0 +1,19 @@
+{
+  "measured_date": "2026-11-02",
+  "method": "du -sb repository including directory metadata, .git, node_modules and QA artifacts; fixed-point self-accounting",
+  "project_bytes_including_deps_git_evidence": 35733671,
+  "project_MiB": 34.0783,
+  "installed_dependencies_bytes": 27754574,
+  "git_bytes": 41206,
+  "project_without_dependencies_or_git_bytes": 7937891,
+  "vendor_bytes": 1348036,
+  "qa_screenshots_bytes": 6434925,
+  "deployable_runtime_file_bytes": 1404635,
+  "build_output_bytes": 0,
+  "ceiling_bytes": 134217728,
+  "headroom_to_128_MiB_bytes": 98484057,
+  "target_bytes": 104857600,
+  "headroom_to_100_MiB_bytes": 69123929,
+  "temporary_external_QA_tooling": "/tmp/kailasa-qa measured 82772654 bytes plus extracted Chromium/libs outside repository; not delivered or runtime required",
+  "baseline_including_git_bytes": 41273
+}

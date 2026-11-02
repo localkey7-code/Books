@@ -1,0 +1,94 @@
+PASS overview renderer budget {
+  frames: 9,
+  fps: 0,
+  drawCalls: 48,
+  triangles: 104362,
+  dpr: 1.25,
+  quality: 'balanced',
+  instances: 2660,
+  materials: 7
+}
+PASS mobile DPR cap 1.25
+PASS resize 390×844 0.46208530805687204
+PASS touch targets 390×844 [
+  { selector: '#overview-button', w: 44, h: 44, inScreen: true },
+  { selector: '#orbit-button', w: 71.03125, h: 44, inScreen: true },
+  { selector: '#explore-button', w: 83.53125, h: 44, inScreen: true },
+  { selector: '#guide-button', w: 44, h: 44, inScreen: true },
+  { selector: '#about-button', w: 44, h: 44, inScreen: true },
+  { selector: '[data-site="temple"]', w: 88, h: 51, inScreen: true }
+]
+PASS entire excavation in overview 390×844 {
+  minX: -0.822410218189574,
+  maxX: 0.9023982851360639,
+  minY: -0.3030203103544647,
+  maxY: 0.3653360375887011
+}
+PASS resize 844×390 2.164102564102564
+PASS touch targets 844×390 [
+  {
+    selector: '#overview-button',
+    w: 107.796875,
+    h: 44,
+    inScreen: true
+  },
+  { selector: '#orbit-button', w: 83.546875, h: 44, inScreen: true },
+  { selector: '#explore-button', w: 97.28125, h: 44, inScreen: true },
+  { selector: '#guide-button', w: 44, h: 44, inScreen: true },
+  { selector: '#about-button', w: 44, h: 44, inScreen: true },
+  { selector: '[data-site="temple"]', w: 114, h: 44, inScreen: true }
+]
+PASS entire excavation in overview 844×390 {
+  minX: -0.35416926786951153,
+  maxX: 0.3826640693341484,
+  minY: -0.6835366197333178,
+  maxY: 0.6718863634379063
+}
+PASS resize 360×740 0.4864864864864865
+PASS touch targets 360×740 [
+  { selector: '#overview-button', w: 44, h: 44, inScreen: true },
+  { selector: '#orbit-button', w: 71.03125, h: 44, inScreen: true },
+  { selector: '#explore-button', w: 83.53125, h: 44, inScreen: true },
+  { selector: '#guide-button', w: 44, h: 44, inScreen: true },
+  { selector: '#about-button', w: 44, h: 44, inScreen: true },
+  { selector: '[data-site="temple"]', w: 80.5, h: 51, inScreen: true }
+]
+PASS entire excavation in overview 360×740 {
+  minX: -0.8227343878739908,
+  maxX: 0.9020196794106019,
+  minY: -0.32092626757062664,
+  maxY: 0.3828428586787317
+}
+PASS one-finger orbit changes camera 
+PASS two-finger pinch changes camera 
+PASS two-finger pan changes orbit target 
+PASS near detail renderer budget {
+  frames: 199,
+  fps: 5.1431510372021005,
+  drawCalls: 47,
+  triangles: 164674,
+  dpr: 1.25,
+  quality: 'balanced',
+  instances: 2660,
+  materials: 7
+}
+PASS explore mode activated 
+PASS thumbstick moves bounded camera 
+PASS right-side drag changes look 
+PASS keyboard movement 
+PASS altitude touch control 
+PASS free-flight bounds clamp 
+PASS reset from bounds to overview 
+PASS quality low DPR 1
+PASS quality high DPR 1.5
+PASS quality balanced DPR 1.25
+PASS guide opens 
+PASS guide closes 
+PASS accuracy notes visible 
+PASS landscape joystick and altitude visible 
+PASS landscape thumbstick movement 
+PASS 20 mode/reset cycles create no new instances 
+PASS no remote or node_modules request on reload []
+PASS all local assets HTTP success []
+MEASURED software-only FPS sample 9.988014382740712
+PASS no JavaScript or WebGL console errors []

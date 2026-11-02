@@ -1,0 +1,40 @@
+
+> kailasa-precinct@1.0.0 build
+> node scripts/check.mjs
+
+PASS all app modules syntax checked
+PASS no remote URLs, network APIs, font imports in app runtime
+PASS local import engine.js → ../vendor/three.module.js
+PASS local import engine.js → ./registries.js
+PASS local import main.js → ./engine.js
+PASS local import main.js → ./materials.js
+PASS local import main.js → ./terrain.js
+PASS local import main.js → ./temple.js
+PASS local import main.js → ./precinct.js
+PASS local import main.js → ./sculpture.js
+PASS local import main.js → ./navigation.js
+PASS local import main.js → ./ui.js
+PASS local import materials.js → ../vendor/three.module.js
+PASS local import navigation.js → ../vendor/three.module.js
+PASS local import navigation.js → ../vendor/OrbitControls.js
+PASS local import precinct.js → ./registries.js
+PASS local import precinct.js → ./architecture.js
+PASS local import registries.js → ../vendor/three.module.js
+PASS local import sculpture.js → ../vendor/three.module.js
+PASS local import sculpture.js → ./registries.js
+PASS local import sculpture.js → ./architecture.js
+PASS local import temple.js → ./registries.js
+PASS local import temple.js → ./architecture.js
+PASS local import terrain.js → ../vendor/three.module.js
+PASS local import terrain.js → ./registries.js
+PASS local import OrbitControls.js → ./three.module.js
+PASS deliverable audit/WORKSPACE_AUDIT.md
+PASS deliverable docs/REFERENCE_BRIEF.md
+PASS deliverable PROJECT_PLAN.md
+PASS deliverable docs/INTEGRATION_CONTRACTS.md
+PASS deliverable docs/PLAN_GAUNTLET.md
+PASS deliverable README.md
+PASS storage 35733496 bytes <128 MiB including node_modules/.git
+PASS target <100 MiB
+PASS pinned engine lockfile
+Static check failures: 0

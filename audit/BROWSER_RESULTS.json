@@ -1,0 +1,398 @@
+{
+  "environment": "Chromium138 headless, SwiftShader CPU renderer; NOT a physical phone benchmark",
+  "checks": [
+    {
+      "name": "overview renderer budget",
+      "result": "PASS",
+      "detail": {
+        "frames": 9,
+        "fps": 0,
+        "drawCalls": 48,
+        "triangles": 104362,
+        "dpr": 1.25,
+        "quality": "balanced",
+        "instances": 2660,
+        "materials": 7
+      }
+    },
+    {
+      "name": "mobile DPR cap",
+      "result": "PASS",
+      "detail": 1.25
+    },
+    {
+      "name": "resize 390×844",
+      "result": "PASS",
+      "detail": 0.46208530805687204
+    },
+    {
+      "name": "touch targets 390×844",
+      "result": "PASS",
+      "detail": [
+        {
+          "selector": "#overview-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#orbit-button",
+          "w": 71.03125,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#explore-button",
+          "w": 83.53125,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#guide-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#about-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "[data-site=\"temple\"]",
+          "w": 88,
+          "h": 51,
+          "inScreen": true
+        }
+      ]
+    },
+    {
+      "name": "entire excavation in overview 390×844",
+      "result": "PASS",
+      "detail": {
+        "minX": -0.822410218189574,
+        "maxX": 0.9023982851360639,
+        "minY": -0.3030203103544647,
+        "maxY": 0.3653360375887011
+      }
+    },
+    {
+      "name": "resize 844×390",
+      "result": "PASS",
+      "detail": 2.164102564102564
+    },
+    {
+      "name": "touch targets 844×390",
+      "result": "PASS",
+      "detail": [
+        {
+          "selector": "#overview-button",
+          "w": 107.796875,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#orbit-button",
+          "w": 83.546875,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#explore-button",
+          "w": 97.28125,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#guide-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#about-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "[data-site=\"temple\"]",
+          "w": 114,
+          "h": 44,
+          "inScreen": true
+        }
+      ]
+    },
+    {
+      "name": "entire excavation in overview 844×390",
+      "result": "PASS",
+      "detail": {
+        "minX": -0.35416926786951153,
+        "maxX": 0.3826640693341484,
+        "minY": -0.6835366197333178,
+        "maxY": 0.6718863634379063
+      }
+    },
+    {
+      "name": "resize 360×740",
+      "result": "PASS",
+      "detail": 0.4864864864864865
+    },
+    {
+      "name": "touch targets 360×740",
+      "result": "PASS",
+      "detail": [
+        {
+          "selector": "#overview-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#orbit-button",
+          "w": 71.03125,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#explore-button",
+          "w": 83.53125,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#guide-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "#about-button",
+          "w": 44,
+          "h": 44,
+          "inScreen": true
+        },
+        {
+          "selector": "[data-site=\"temple\"]",
+          "w": 80.5,
+          "h": 51,
+          "inScreen": true
+        }
+      ]
+    },
+    {
+      "name": "entire excavation in overview 360×740",
+      "result": "PASS",
+      "detail": {
+        "minX": -0.8227343878739908,
+        "maxX": 0.9020196794106019,
+        "minY": -0.32092626757062664,
+        "maxY": 0.3828428586787317
+      }
+    },
+    {
+      "name": "one-finger orbit changes camera",
+      "result": "PASS"
+    },
+    {
+      "name": "two-finger pinch changes camera",
+      "result": "PASS"
+    },
+    {
+      "name": "two-finger pan changes orbit target",
+      "result": "PASS"
+    },
+    {
+      "name": "near detail renderer budget",
+      "result": "PASS",
+      "detail": {
+        "frames": 199,
+        "fps": 5.1431510372021005,
+        "drawCalls": 47,
+        "triangles": 164674,
+        "dpr": 1.25,
+        "quality": "balanced",
+        "instances": 2660,
+        "materials": 7
+      }
+    },
+    {
+      "name": "explore mode activated",
+      "result": "PASS"
+    },
+    {
+      "name": "thumbstick moves bounded camera",
+      "result": "PASS"
+    },
+    {
+      "name": "right-side drag changes look",
+      "result": "PASS"
+    },
+    {
+      "name": "keyboard movement",
+      "result": "PASS"
+    },
+    {
+      "name": "altitude touch control",
+      "result": "PASS"
+    },
+    {
+      "name": "free-flight bounds clamp",
+      "result": "PASS"
+    },
+    {
+      "name": "reset from bounds to overview",
+      "result": "PASS"
+    },
+    {
+      "name": "quality low DPR",
+      "result": "PASS",
+      "detail": 1
+    },
+    {
+      "name": "quality high DPR",
+      "result": "PASS",
+      "detail": 1.5
+    },
+    {
+      "name": "quality balanced DPR",
+      "result": "PASS",
+      "detail": 1.25
+    },
+    {
+      "name": "guide opens",
+      "result": "PASS"
+    },
+    {
+      "name": "guide closes",
+      "result": "PASS"
+    },
+    {
+      "name": "accuracy notes visible",
+      "result": "PASS"
+    },
+    {
+      "name": "landscape joystick and altitude visible",
+      "result": "PASS"
+    },
+    {
+      "name": "landscape thumbstick movement",
+      "result": "PASS"
+    },
+    {
+      "name": "20 mode/reset cycles create no new instances",
+      "result": "PASS"
+    },
+    {
+      "name": "no remote or node_modules request on reload",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "name": "all local assets HTTP success",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "name": "no JavaScript or WebGL console errors",
+      "result": "PASS",
+      "detail": []
+    }
+  ],
+  "samples": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "stats": {
+        "frames": 41,
+        "fps": 1.4634860237084732,
+        "drawCalls": 48,
+        "triangles": 104362,
+        "dpr": 1.25,
+        "quality": "balanced",
+        "instances": 2660,
+        "materials": 7
+      },
+      "position": [
+        177.81841256339388,
+        254.97001744915812,
+        260.14175171311325
+      ],
+      "mode": "orbit",
+      "aspect": 0.46208530805687204
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "stats": {
+        "frames": 72,
+        "fps": 3.8095238095238093,
+        "drawCalls": 48,
+        "triangles": 104362,
+        "dpr": 1.25,
+        "quality": "balanced",
+        "instances": 2660,
+        "materials": 7
+      },
+      "position": [
+        88.82948751085384,
+        131.37428820951925,
+        129.95425024736028
+      ],
+      "mode": "orbit",
+      "aspect": 2.164102564102564
+    },
+    {
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "stats": {
+        "frames": 105,
+        "fps": 3.658715059271178,
+        "drawCalls": 48,
+        "triangles": 104362,
+        "dpr": 1.25,
+        "quality": "balanced",
+        "instances": 2660,
+        "materials": 7
+      },
+      "position": [
+        168.89940055883181,
+        242.5825007761553,
+        247.09356748421698
+      ],
+      "mode": "orbit",
+      "aspect": 0.4864864864864865
+    },
+    {
+      "view": "close sculpture",
+      "stats": {
+        "frames": 199,
+        "fps": 5.1431510372021005,
+        "drawCalls": 47,
+        "triangles": 164674,
+        "dpr": 1.25,
+        "quality": "balanced",
+        "instances": 2660,
+        "materials": 7
+      },
+      "position": [
+        10.78536813761311,
+        19.107926694472738,
+        34.95385655283146
+      ],
+      "mode": "orbit",
+      "aspect": 0.46208530805687204
+    }
+  ],
+  "softwareFps": 9.988014382740712,
+  "phoneFps": "UNTESTED",
+  "errors": [],
+  "remote": []
+}
